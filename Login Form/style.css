@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    flex-direction: column;
+}
+.main-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    overflow-x: hidden;
+    display: flex;
+    height: 18rem;
+    width: 14rem;
+}
+.Login-page{
+    position: absolute;
+    /* transform: translateX(-300px); */
+    transition: transform 5s;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Sign-up-page {
+    transform: translateX(300px);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.mc-heading {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 900;
+}
+#person, #lock {
+    position: absolute;
+}
+.username, .password {
+    border: none;
+    outline: transparent;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    box-shadow: 3px 4px black;
+}
+.mc-input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mc-login-button {
+    text-align: center;
+}
+.login-btn {
+    font-size: 15px;
+    padding: 8px;
+    width: 10rem;
+    font-weight: 900;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(8, 141, 218);
+    color: white;
+    box-shadow: 3px 4px black;
+}
+.login-btn:is(:hover, :active) {
+    background-color: rgb(6, 127, 197);
+}
+.login-or-signup-div {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px ;
+    font-weight: 900;
+}
+.options {
+    cursor: pointer;
+}
+.underline-option {
+    border-bottom: 3px solid white;
+}
+.greyFont-option {
+    color: grey;
+}
+.page-bar {
+    position: absolute;
+    bottom: 6rem;
+    display: flex;
+    gap: 5px;
+}
+.first-page {
+    background-color: rgb(7, 98, 216);
+}
+.second-page {
+    background-color: white;
+}
+.status {
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+}

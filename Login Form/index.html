@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-or-signup-div">
+        <div class="login-option options underline-option " id="login-page-btn">
+            LOGIN
+        </div>
+        <div class="sign-up-option options greyFont-option" id="sign-up-page-btn">
+            SIGN-UP
+        </div>
+    </div>
+    <div class="main-card">
+        <div class="Login-page">
+            <div class="mc-heading">Login</div>
+            <div class="mc-input-fields">
+                <div class="username-input">
+                    <label for="user-name">
+                        <ion-icon name="person-sharp" id="person"></ion-icon>
+                    </label>
+                    <input type="email" placeholder="email/username" class="username" id="user-name">
+                </div>
+                <div class="password-input">
+                    <label for="pass-ward">
+                        <ion-icon name="lock-closed" id="lock"></ion-icon>
+                    </label>
+                    <input type="password" placeholder="password" class="password" id="pass-ward">
+                </div>
+            </div>
+            <div class="mc-login-button">
+                <button class="login-btn"> LOGIN</button>
+            </div>
+        </div>
+        <div class="Sign-up-page">
+            <div class="mc-heading">Sign-Up</div>
+            <div class="mc-input-fields">
+                <div class="username-input">
+                    <label for="user-name">
+                        <ion-icon name="person-sharp" id="person"></ion-icon>
+                    </label>
+                    <input type="email" placeholder="Enter email" class="username" id="sign-email-name">
+                </div>
+                <div class="username-input">
+                    <label for="user-name">
+                        <ion-icon name="person-sharp" id="person"></ion-icon>
+                    </label>
+                    <input type="text" placeholder="Enter username" class="username" id="sign-user-name">
+                </div>
+                <div class="password-input">
+                    <label for="pass-ward">
+                        <ion-icon name="lock-closed" id="lock"></ion-icon>
+                    </label>
+                    <input type="password" placeholder="create password" class="password" id="sign-pass-ward">
+                </div>
+            </div>
+            <div class="mc-login-button">
+                <button class="login-btn"> SIGN-UP</button>
+            </div>
+        </div>
+    </div>
+    <div class="page-bar">
+        <div class="first-page status"></div>
+        <div class="second-page status"></div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>
